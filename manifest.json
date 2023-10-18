@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "collapse tab",
+  "version": "1.0",
+  "permissions": ["tabs"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+
+  "desription": "groups tabs and collapses them into one",
+  "icons": {
+    "48": "icons/icon48.jpg"
+  },
+  "background": {
+    "scripts": ["/src/background.js"],
+    "persistent": false
+  }
+}
