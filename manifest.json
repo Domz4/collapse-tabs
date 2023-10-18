@@ -7,9 +7,9 @@
     "default_popup": "popup.html"
   },
 
-  "desription": "groups tabs and collapses them into one",
+  "description": "groups tabs and collapses them into one",
   "icons": {
-    "48": "icons/icon48.jpg"
+    "96": "icons/icons8-accordion-96.png"
   },
   "background": {
     "scripts": ["/src/background.js"],
