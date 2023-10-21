@@ -4,7 +4,7 @@
   "version": "1.0",
   "permissions": ["tabs"],
   "browser_action": {
-    "default_popup": "popup.html"
+    "default_popup": "src/popup/popup.html"
   },
 
   "description": "groups tabs and collapses them into one",
@@ -12,7 +12,7 @@
     "96": "icons/icons8-accordion-96.png"
   },
   "background": {
-    "scripts": ["/src/background.js"],
+    "scripts": ["src/background.js"],
     "persistent": false
   }
 }
